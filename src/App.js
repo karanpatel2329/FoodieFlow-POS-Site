@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 
 export default function App() {
   useEffect(() => {
-    document.title = 'My Page Title';
+    document.title = 'FoodieFlow POS';
   }, []);
   return (
     <div style={{
