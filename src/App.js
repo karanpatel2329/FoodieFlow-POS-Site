@@ -1,8 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import React from 'react';
+import React, { useEffect } from 'react';
 
 export default function App() {
+  useEffect(() => {
+    document.title = 'My Page Title';
+  }, []);
   return (
     <div style={{
       padding: '30px',
